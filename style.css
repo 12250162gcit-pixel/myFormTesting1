@@ -1,0 +1,124 @@
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Wrapper for header and form */
+.green-wrapper {
+  background-color: #2e7d32;
+  width: 440px;
+  margin: 0 auto; /* Centers the container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header section */
+.header {
+  background-color: #2e7d32;
+  padding: 15px 0;
+  margin-bottom: 0;
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+  color: #f1e105;
+}
+
+/* Header title and subtitle */
+.header h1 {
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.header p {
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  color: #eef1ee;
+}
+
+/* Form container */
+.form-container {
+  background-color: #0d47a1;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: -5px; /* Slight overlap with header */
+}
+
+/* Form body padding */
+.form-body {
+  padding: 0 20px 20px;
+}
+
+/* Inputs and selects */
+.form-body input[type="text"],
+.form-body input[type="email"],
+.form-body input[type="password"],
+.form-body select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #333;
+}
+
+/* Gender section */
+.gender-section {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.gender-section label {
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.gender-section input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Checkbox section */
+.checkbox-container {
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic; /* Adds emphasis */
+}
+
+.checkbox-container input {
+  margin-right: 5px;
+}
+
+/* Buttons */
+.button-group {
+  text-align: center;
+}
+
+.button-group button {
+  padding: 10px 25px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+/* Button specific colors */
+.register-btn {
+  background-color: #4caf50; /* Green for register */
+}
+
+.clear-btn {
+  background-color: #f44336; /* Red for clear/reset */
+}

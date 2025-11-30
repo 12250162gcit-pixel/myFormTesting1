@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Today</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Main container with green background styling -->
+    <div class="green-wrapper">
+      <!-- Header section containing the page title and description -->
+      <div class="header">
+        <h1>Register Today</h1>
+        <p>Fill in the data below.</p>
+      </div>
+
+      <!-- Form container holding the registration form -->
+      <div class="form-container">
+        <form action="#" method="get" class="form-body">
+          <!-- Input field for full name -->
+          <input type="text" name="fullName" placeholder="Full Name" required />
+
+          <!-- Input field for email address -->
+          <input
+            type="email"
+            name="emailAddress"
+            placeholder="E-mail Address"
+            required
+          />
+
+          <!-- Dropdown selection for position -->
+          <select name="position" required>
+            <option value="" disabled selected>Select Position</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="manager">Manager</option>
+          </select>
+
+          <!-- Input field for password -->
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+
+          <!-- Radio buttons for selecting gender -->
+          <div class="gender-section">
+            <label>Gender:</label>
+            <label
+              ><input type="radio" name="gender" value="male" checked />
+              Male</label
+            >
+            <label
+              ><input type="radio" name="gender" value="female" /> Female</label
+            >
+            <label
+              ><input type="radio" name="gender" value="secret" /> Secret</label
+            >
+          </div>
+
+          <!-- Checkbox to confirm correctness of entered data -->
+          <label class="checkbox-container">
+            <input type="checkbox" name="confirmation" required />
+            I confirm that all data are correct
+          </label>
+
+          <!-- Buttons to submit or reset the form -->
+          <div class="button-group">
+            <button type="submit" class="register-btn">Register</button>
+            <button type="reset" class="clear-btn">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
